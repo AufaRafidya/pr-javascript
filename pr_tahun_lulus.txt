@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+    <script>
+    var kelas;
+kelas =prompt("Kamu kelas berapa?");
+if(kelas==7){
+    alert('kamu akan lulus di tahun 2020');
+ } 
+if(kelas==8) {
+     alert('kamu akan lulus di tahun 2019');
+ }
+if(kelas==9) {
+     alert('kamu akan lulus di tahun 2018');
+ }
+        </script>
+</body>
+</html>

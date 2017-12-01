@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var nilai;
+nilai=prompt("Berapa nilai ulanganmu?");
+if(nilai>74 && nilai<101){
+alert("selamat, nilaimu diatas kkm ");
+}  
+if(nilai>0 && nilai<75){
+alert("selamat, nilaimu dibawah kkm ");
+}  
+    </script>
+</body>
+</html>

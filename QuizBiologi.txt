@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Quiz Biologi</h1>
+    <h2>Nilaiku</h2>
+    <h3 id=score></h3>
+<script>
+var nilai=0;
+ var soal;
+ [
+     {soal:"1.Tumbuhan berfotosintesis dengan bantuan...", jawaban:"matahari"},
+     {soal:"2.mata berguna untuk...", jawaban:"melihat"},
+     {soal:"3.keistimewaan bunglon adalah...", jawaban:"mimikri"},
+     {soal:"4.Terdapat berapa planet sekarang ini?", jawaban:"8 planet"&&"8"},
+     {soal:"5.Hewan yang memakan daging disebut hewan...", jawaban:"insektivora"},
+     {soal:"6.Dalam cara bernaknya, ular boa termasuk dalam golongan..", jawaban:"ovovivipar"},
+     {soal:"7.kaki berfungsi untuk", jawaban:"berjalan"},
+     {soal:"8.Paus bernapas dengan...", jawaban:"paru-paru"},
+     {soal:"9.Vivipar adalah hewan yang...", jawaban:"melahirkan"},
+     {soal:"10.Ovipar adalah hewan yang...", jawaban:"bertelur"},
+
+ ]   
+ soal.forEach(function(data){
+var jawab=prompt(data.soal)
+if(jawaban==data.soal)
+    nilai=nilai+10
+ });
+    </script>
+</body>
+</html>

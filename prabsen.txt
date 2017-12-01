@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <!-- nilai sangat baik=diatas 75 -->
+    <!-- nilai jelek=dibawah 75 -->
+    <script>
+var absen;
+absen =prompt ("nomor absen kamu berapa?");
+if (absen>0 && absen<6){
+    alert("apakah huruf depan kamu antara A-B?");}
+ if (absen>5 && absen<11){
+    alert("apakah huruf depan kamu antara C-F?");
+}
+if (absen>10 && absen<16){
+    alert("apakah huruf depan kamu antara G-J?");
+}
+if (absen>15 && absen<21){
+    alert("apakah huruf depan kamu antara K-N?");
+}
+if (absen>20 && absen<26){
+    alert("apakah huruf depan kamu antara O-S?");
+}
+if (absen>25 && absen<31){
+    alert("apakah huruf depan kamu antara R-V?");
+}
+if (absen>30 && absen<36){
+    alert("apakah huruf depan kamu antara U-Z?");
+}
+  </script>
+ </body>
+  </html>
